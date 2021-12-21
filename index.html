@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Manifest added by SuperPWA - Progressive Web Apps Plugin For WordPress -->
+    <!-- <link rel="manifest" href="/superpwa-manifest.json" />
+    <link rel="prefetch" href="/superpwa-manifest.json" /> -->
+    <meta name="theme-color" content="#dbd5c9" />
+    <!-- / SuperPWA.com -->
+    <meta
+      name="robots"
+      content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+
+    <title>
+      ABC Architecture agence d' architecture, architecte Strasbourg
+    </title>
+    <meta property="og:image" content="" />
+    <meta
+      name="description"
+      content="ABC Architecture agence d' architecture, architecte Strasbourg"
+    />
+    <link rel="canonical" href="" />
+    <meta property="og:locale" content="fr" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="ABC Architecture agence d' architecture, architecte Strasbourg"
+    />
+    <meta
+      property="og:description"
+      content="ABC Architecture agence d' architecture, architecte Strasbourg"
+    />
+    <meta property="og:url" content="" />
+    <meta
+      property="og:site_name"
+      content="ABC Architecture agence d' architecture, architecte Strasbourg"
+    />
+    <meta
+      property="article:modified_time"
+      content="2021-07-17T03:06:54+00:00"
+    />
+    <!-- add image -->
+    <!-- <meta
+      property="og:image"
+      content=""
+    /> -->
+    <meta property="og:image:width" content="1920" />
+    <meta property="og:image:height" content="990" />
+
+    <!-- / Yoast SEO plugin. -->
+
+    <link
+      rel="stylesheet"
+      id="abc-kitchens_style_libraries-css"
+      href="./styles/librairies.css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="abc-kitchens_style-css"
+      href="./styles/style.css"
+      media="all"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css"
+    />
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+        <link rel="stylesheet" type="text/css" href="./css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="./css/demo.css" />
+    <link rel="stylesheet" type="text/css" href="./css/component.css" />
+    <script src="js/modernizr.custom.js"></script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-5Y42XWN7V4"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+
+      gtag('config', 'G-5Y42XWN7V4');
+    </script>
+  </head>
+
+  <body id="body" style="background-color: white;">
+    <div class="page" data-scroll-container>
+      <div class="circle">
+        <span class="soul"></span>
+      </div>
+      <div
+        id="curtain"
+        class="d-flex align-items-center justify-content-center fixed-top"
+      >
+        <div class="curtain-logo text-center">
+          <span class="curtain-logo-d"><h1>A</h1></span>
+          <span class="curtain-logo-d"><h1>B</h1></span>
+          <span class="curtain-logo-d"><h1>C</h1></span>
+        </div>
+        <!-- <div class="loading-text">Loading...</div> -->
+        <span class="curtain-x curtain-left"></span>
+        <span class="curtain-y curtain-top"></span>
+        <span class="curtain-x curtain-right"></span>
+        <span class="curtain-y curtain-bottom"></span>
+        <!-- <span class="curtain-center"></span> -->
+      </div>
+      <div id="menu_header" class="fixed-top secondaryMenu">
+        <div class="container">
+          <nav class="d-flex align-items-center justify-content-between">
+            <a href="https://abckitchens.com" rel="home" aria-label="Home">
+              <div class="main-logo">
+                <svg id="logo" x="0px" y="0px" viewBox="0 0 225.3 45">
+                  <style type="text/css">
+                    .abc-bar {
+                      fill: #cd2129;
+                    }
+                  </style>
+                </svg>
+                <img class="logo" src="./doc/images/LOGO-min.jpg" alt="logo ABC" />
+              </div>
+            </a>
+            <button
+              type="button"
+              id="menu_button"
+              class="position-relative"
+              aria-label="Menu"
+            >
+              <div class="d-flex flex-column position-relative overflow-hidden">
+                <span class="menu_button-open">
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="feather feather-menu"
+                  >
+                    <line x1="3" y1="12" x2="21" y2="12"></line>
+                    <line x1="3" y1="6" x2="21" y2="6"></line>
+                    <line x1="3" y1="18" x2="21" y2="18"></line>
+                  </svg>
+                </span>
+                <span class="position-absolute left-0 menu_button-close">
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="feather feather-x"
+                  >
+                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                  </svg>
+                </span>
+              </div>
+            </button>
+            <div class="col-5 nav-items">
+              <div class="menu-main-menu-container">
+                <ul id="primary-menu" class="menu">
+                  <li
+                    id="menu-item-12"
+                    class="
+                      menu-item
+                      menu-item-type-post_type
+                      menu-item-object-page menu-item-home
+                      current-menu-item
+                      page_item page-item-6
+                      current_page_item
+                      menu-item-12
+                    "
+                  >
+                    <a href="./index.html" aria-current="page">Home</a>
+                  </li>
+                  <li
+                    id="menu-item-23"
+                    class="
+                      menu-item
+                      menu-item-type-post_type
+                      menu-item-object-page menu-item-23
+                    "
+                  >
+                    <a href="./projets.html">Projects</a>
+                  </li>
+                  <li
+                    id="menu-item-22"
+                    class="
+                      menu-item
+                      menu-item-type-post_type
+                      menu-item-object-page menu-item-22
+                    "
+                  >
+                    <a href="./gallery.html">Gallery</a>
+                  </li>
+                  <li
+                    id="menu-item-24"
+                    class="
+                      menu-item
+                      menu-item-type-post_type
+                      menu-item-object-page menu-item-24
+                    "
+                  >
+                    <a href="./contact.html">Contact</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="menu_credit d-block d-lg-none">
+                <a
+                  href="./tetris.html"
+                  rel="noopener"
+                  target="_blank"
+                  >A website by Yayou</a
+                >
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+      <!-- <div id="quick_contact" class="fixed-bottom">
+        <div class="quick-icon">
+          <a href="" title="Contact">
+            <svg width="36px" height="36px">
+              <path
+                id="Icon_awesome-pen"
+                data-name="Icon awesome-pen"
+                d="M20.443,6.556l9,9L9.9,35.1l-8.025.886A1.688,1.688,0,0,1,.01,34.125L.9,26.094,20.443,6.556Zm14.569-1.34L30.785.989a3.377,3.377,0,0,0-4.775,0L22.034,4.965l9,9,3.976-3.976a3.377,3.377,0,0,0,0-4.775Z"
+                transform="translate(0.001 -0.001)"
+                fill="#36332e"
+              />
+            </svg>
+          </a>
+        </div>
+      </div> -->
+      <header class="header-wrapper" data-scroll-section>
+        <div
+          data-scroll
+          data-scroll-speed="-1.5"
+          class="position-relative overflow-hidden"
+        >
+          <div
+            class="header min-vh-100 w-100 h-100 d-flex align-items-center"
+            data-scroll
+            data-scroll-repeat="true"
+            data-scroll-offset="25%, 75%"
+            data-scroll-call="pageHeader"
+          >
+            <div class="container">
+              <div
+                class="
+                  col-12 col-lg-5 col-xl-6
+                  header-content
+                  split_text
+                  main-heading
+                "
+              >
+                <div
+                  data-scroll
+                  data-scroll-direction="vertical"
+                  data-scroll-speed="4"
+                >
+                  <h1>ABC Architecture</h1>
+                </div>
+                <div
+                  data-scroll
+                  data-scroll-direction="vertical"
+                  data-scroll-speed="2"
+                >
+                  <p>
+                    Plans,&nbsp;Modèlisation,&nbsp;Design&nbsp;<br />&nbsp;cabinet&nbsp;de&nbsp;Strasbourg,&nbsp;France.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="
+              position-absolute
+              left-0
+              right-0
+              top-0
+              bottom-0
+              page-header-image
+            "
+            data-scroll
+            data-scroll-direction="vertical"
+            data-scroll-speed="4"
+            style="background-image: url(./doc/images/NEXXTIMMO\ 01-min.jpg)"
+          ></div>
+        </div>
+      </header>
+      <section class="abc-caption-section" data-scroll-section>
+        <div class="container abc-caption-wrapper">
+          <div
+            class="
+              min-vh-100
+              w-100
+              h-100
+              d-flex
+              flex-column
+              align-items-center
+              justify-content-center
+              split_text
+              animated-heading
+              main-heading
+            "
+            data-scroll
+          >
+            <div id="plan" class="main-content" data-scroll
+              data-scroll-direction="vertical"
+              data-scroll-speed="2">
+              <div class="door-hor"></div>
+              <div class="utility">
+                <div class="door-hor"></div>
+                <div class="name">sellier</div>
+              </div>
+              <div class="kitchen">
+                <div class="ref"></div>
+                <div class="rug"></div>
+                <div class="cabinets">
+                  <div class="stove"></div>
+                </div>
+                <div class="sink">
+                  <div class="sink-tap-1"></div>
+                  <div class="sink-tap-2"></div>
+                </div>
+                <div class="island">
+                  <div class="chair"></div>
+                </div>
+                <div class="name">cuisine</div>
+              </div>
+              <div class="bathroom-2">
+                <div class="window-hor"></div>
+                <div class="door-hor"></div>
+                <div class="shower"></div>
+                <div class="toilet"></div>
+                <div class="vanity"></div>
+                <div class="rug"></div>
+                <div class="name">salle de bain #1</div>
+              </div>
+              <div class="bedroom-2">
+                <div class="door-ver"></div>
+                <div class="window-hor"></div>
+                <div class="bed-table"></div>
+                <div class="bed">
+                  <div class="blanket"></div>
+                  <div class="pillow"></div>
+                </div>
+                <div class="table"></div>
+                <div class="name">chambre d'amis</div>
+              </div>
+              <div class="living-room">
+                <div class="rug"></div>
+                <div class="window-ver"></div>
+                <div class="sofa"></div>
+                <div class="coffee-table"></div>
+                <div class="tv-set"></div>
+                <div class="name">salon</div>
+              </div>
+              <div class="bedroom-1">
+                <div class="rug"></div>
+                <div class="door-hor"></div>
+                <div class="window-hor"></div>
+                <div class="bed">
+                  <div class="blanket"></div>
+                  <div class="pillow"></div>
+                  <div class="pillow"></div>
+                </div>
+                <div class="bed-table"></div>
+                <div class="bed-table"></div>
+                <div class="name">suite parentale</div>
+              </div>
+              <div class="closet">
+                <div class="wall-gap"></div>
+                <div class="name">dressing</div>
+              </div>
+              <div class="bathroom-1">
+                <div class="door-ver"></div>
+                <div class="door-ver"></div>
+                <div class="window-hor"></div>
+                <div class="rug"></div>
+                <div class="bathtub"></div>
+                <div class="vanity"></div>
+                <div class="toilet"></div>
+                <div class="name">salle de bain #2</div>
+              </div>
+              <div class="office">
+                <div class="door-hor"></div>
+                <div class="window-hor"></div>
+                <div class="table"></div>
+                <div class="name">bureau</div>
+              </div>
+              <div class="patio">
+                <div class="door-sliding"></div>
+                <div class="real-patio">
+                  <div class="name">balcon</div>
+                </div>
+                <div class="patio-table"></div>
+                <div class="patio-chair"></div>
+                <div class="patio-chair"></div>
+              </div>
+            </div>
+            <div
+              class="col-12 col-lg-10 text-center"
+              data-scroll
+              data-scroll-direction="vertical"
+              data-scroll-speed="6"
+            >
+              <h1 id="lorem">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam
+                sapiente expedita commodi adipisci error dolores, ipsa placeat
+                asperiores odit eum.
+              </h1>
+            </div>
+          </div>
+          
+        </div>
+      </section>
+      <section
+        class="
+          abc-services
+          d-flex
+          flex-column
+          justify-content-center
+          w-100
+          h-100
+        "
+        data-scroll-section
+      >
+        <div data-scroll>
+          <!-- <div class="scroll text1">
+            <div>
+              Special Offer!<span> Blah Blah Blah Blah! </span>Special
+              Offer!<span> Blah Blah Blah Blah! Blah!</span>
+            </div>
+            <div>
+              Special Offer!<span> Blah Blah Blah Blah! </span>Special
+              Offer!<span>Blah Blah Blah Blah! Blah! </span>
+            </div>
+          </div> -->
+          <div class="scroll text2">
+            <div>
+              Special Offer!<span> Blah Blah Blah Blah! Blah!</span>Special
+              Offer!<span> Blah Blah Blah Blah! Blah!</span>
+            </div>
+            <div>
+              Special Offer!<span> Blah Blah Blah Blah! Blah!</span>Special
+              Offer!<span>Blah Blah Blah Blah! Blah!</span>
+            </div>
+          </div>
+        </div>
+        <img data-scroll
+              data-scroll-direction="vertical"
+              data-scroll-speed="2" src="./doc/images/01/VUE AERIENNE.jpg" />
+         <div
+              class="col-12 col-lg-10 text-center"
+              data-scroll
+              data-scroll-direction="vertical"
+              data-scroll-speed="6"
+            >
+              <h1 id="lorem">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam
+                sapiente expedita commodi adipisci error dolores, ipsa placeat
+                asperiores odit eum.
+              </h1>
+            </div>
+       
+      </section>
+      <section
+        " style="background-color: #000000; height: 250vh;"
+        data-scroll-section>
+ <div class="wrapper" data-scroll
+              data-scroll-direction="vertical"
+              data-scroll-speed="-4">
+        <ul class="stage clearfix">
+          <li class="scene">
+            <div class="movie" onclick="return true">
+              <div class="poster"></div>
+              <div class="info">
+                <header>
+                  <h1>It's a Wonderful Life</h1>
+                  <span class="year">1946</span>
+                  <span class="rating">PG</span>
+                  <span class="duration">130 minutes</span>
+                </header>
+                <p>
+                  In Bedford Falls, New York on Christmas Eve, George Bailey is
+                  deeply troubled. Prayers for his well-being from friends and
+                  family reach Heaven. Clarence Odbody, Angel Second Class, is
+                  assigned to visit Earth to save George, thereby earning his
+                  wings. Franklin and Joseph, the head angels, review George's
+                  life with Clarence.
+                </p>
+              </div>
+            </div>
+          </li>
+
+          <li class="scene">
+            <div class="movie" onclick="return true">
+              <div class="poster"></div>
+              <div class="info">
+                <header>
+                  <h1>Vengeance Valley</h1>
+                  <span class="year">1951</span>
+                  <span class="rating">NR</span>
+                  <span class="duration">83 minutes</span>
+                </header>
+                <p>
+                  A cattle baron takes in an orphaned boy and raises him,
+                  causing his own son to resent the boy. As they get older the
+                  resentment festers into hatred, and eventually the real son
+                  frames his stepbrother for fathering an illegitimate child
+                  that is actually his, seeing it as an opportunity to get his
+                  half-brother out of the way so he can have his father's empire
+                  all to himself.
+                </p>
+              </div>
+            </div>
+          </li>
+
+          <li class="scene">
+            <div class="movie" onclick="return true">
+              <div class="poster"></div>
+              <div class="info">
+                <header>
+                  <h1>The Gold Rush</h1>
+                  <span class="year">1925</span>
+                  <span class="rating">NR</span>
+                  <span class="duration">95 minutes</span>
+                </header>
+                <p>
+                  The Tramp travels to the Yukon to take part in the Klondike
+                  Gold Rush. He gets mixed up with some burly characters and
+                  falls in love with the beautiful Georgia. He tries to win her
+                  heart with his singular charm.
+                </p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <!-- /wrapper2 -->
+      <!-- <div class="wrapper">
+        <ul class="stage clearfix">
+          <li class="scene">
+            <div class="movie" onclick="return true">
+              <div class="poster"></div>
+              <div class="info">
+                <header>
+                  <h1>It's a Wonderful Life</h1>
+                  <span class="year">1946</span>
+                  <span class="rating">PG</span>
+                  <span class="duration">130 minutes</span>
+                </header>
+                <p>
+                  In Bedford Falls, New York on Christmas Eve, George Bailey is
+                  deeply troubled. Prayers for his well-being from friends and
+                  family reach Heaven. Clarence Odbody, Angel Second Class, is
+                  assigned to visit Earth to save George, thereby earning his
+                  wings. Franklin and Joseph, the head angels, review George's
+                  life with Clarence.
+                </p>
+              </div>
+            </div>
+          </li>
+
+          <li class="scene">
+            <div class="movie" onclick="return true">
+              <div class="poster"></div>
+              <div class="info">
+                <header>
+                  <h1>Vengeance Valley</h1>
+                  <span class="year">1951</span>
+                  <span class="rating">NR</span>
+                  <span class="duration">83 minutes</span>
+                </header>
+                <p>
+                  A cattle baron takes in an orphaned boy and raises him,
+                  causing his own son to resent the boy. As they get older the
+                  resentment festers into hatred, and eventually the real son
+                  frames his stepbrother for fathering an illegitimate child
+                  that is actually his, seeing it as an opportunity to get his
+                  half-brother out of the way so he can have his father's empire
+                  all to himself.
+                </p>
+              </div>
+            </div>
+          </li>
+
+          <li class="scene">
+            <div class="movie" onclick="return true">
+              <div class="poster"></div>
+              <div class="info">
+                <header>
+                  <h1>The Gold Rush</h1>
+                  <span class="year">1925</span>
+                  <span class="rating">NR</span>
+                  <span class="duration">95 minutes</span>
+                </header>
+                <p>
+                  The Tramp travels to the Yukon to take part in the Klondike
+                  Gold Rush. He gets mixed up with some burly characters and
+                  falls in love with the beautiful Georgia. He tries to win her
+                  heart with his singular charm.
+                </p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div> -->
+      
+      <img data-scroll
+              data-scroll-direction="vertical"
+              data-scroll-speed="2" src="./doc/images/03/VUE 01.jpg">
+      <div data-scroll>
+          <!-- <div class="scroll text1">
+            <div>
+              Special Offer!<span> Blah Blah Blah Blah! </span>Special
+              Offer!<span> Blah Blah Blah Blah! Blah!</span>
+            </div>
+            <div>
+              Special Offer!<span> Blah Blah Blah Blah! </span>Special
+              Offer!<span>Blah Blah Blah Blah! Blah! </span>
+            </div>
+          </div> -->
+          <div class="scroll text2">
+            <div>
+              Special Offer!<span> Blah Blah Blah Blah! Blah!</span>Special
+              Offer!<span> Blah Blah Blah Blah! Blah!</span>
+            </div>
+            <div>
+              Special Offer!<span> Blah Blah Blah Blah! Blah!</span>Special
+              Offer!<span>Blah Blah Blah Blah! Blah!</span>
+            </div>
+          </div>
+        </div>
+      
+        <img data-scroll
+              data-scroll-direction="vertical"
+              data-scroll-speed="2" src="./doc/images/03/VUE 01-min.jpg">
+   
+        <img data-scroll
+              data-scroll-direction="vertical"
+              data-scroll-speed="6" id="footer-logo" src="./doc/images/LOGO-min.jpg">
+     
+
+
+      </section>
+       <section
+        class="
+          abc-services
+      
+          w-100
+          h-100
+        " style="padding: 0%;"
+        data-scroll-section
+      >
+   
+          
+
+<div class="m-t-3"></div>
+
+<footer class="mainfooter" role="contentinfo" >
+
+  <div class="footer-middle">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 col-sm-6">
+        <!--Column1-->
+        <div class="footer-pad">
+          <h4>Address</h4>
+          <address>
+								<ul class="list-unstyled">
+									<li>
+                    Strasbourg<br>
+										26 rue du Neufeld<br>
+										67100 Strasbourg<br>
+									</li>
+									<li>
+										Phone: 06 46 82 55 42<br>Mail: baris.aydin@live.fr
+									</li>
+								</ul>
+							</address>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <!--Column1-->
+        <div class="footer-pad">
+          <h4>Popular Services</h4>
+          <ul class="list-unstyled">
+            <li><a href="#"></a></li>
+            <li><a href="#">Payment Center</a></li>
+            <li><a href="#">Contact Directory</a></li>
+            <li><a href="#">Forms</a></li>
+            <li><a href="#">News and Updates</a></li>
+            <li><a href="#">FAQs</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <!--Column1-->
+        <div class="footer-pad">
+          <h4>Website Information</h4>
+          <ul class="list-unstyled">
+            <li><a href="#">Website Tutorial</a></li>
+            <li><a href="#">Accessibility</a></li>
+            <li><a href="#">Disclaimer</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">FAQs</a></li>
+            <li><a href="#">Webmaster</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <!--Column1-->
+        <div class="footer-pad">
+          <h4>Popular Departments</h4>
+          <ul class="list-unstyled">
+            <li><a href="#">Parks and Recreation</a></li>
+            <li><a href="#">Public Works</a></li>
+            <li><a href="#">Police Department</a></li>
+            <li><a href="#">Fire</a></li>
+            <li><a href="#">Mayor and City Council</a></li>
+            <li>
+              <a href="#"></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <!--Footer Bottom-->
+          <p class="text-xs-center">&copy; Copyright 2021 Yayou</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+    </section>
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.4.2/react-with-addons.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.4.2/react-dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/2.1.3/jquery.parallax.min.js"></script>
+    <!-- <script src="./script.js"></script> -->
+
+    <!-- <script src="./scripts/register.js" id="superpwa-register-sw-js"></script> -->
+    <script src="./scripts/librairies.js" id="libraries_script-js"></script>
+    <script src="./scripts/master.js" id="master_script-js"></script>
+
+
+   
+
+  </body>
+</html>

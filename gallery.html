@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Manifest added by SuperPWA - Progressive Web Apps Plugin For WordPress -->
+    <!-- <link rel="manifest" href="/superpwa-manifest.json" />
+    <link rel="prefetch" href="/superpwa-manifest.json" /> -->
+    <meta name="theme-color" content="#dbd5c9" />
+    <!-- / SuperPWA.com -->
+    <meta
+      name="robots"
+      content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+    />
+
+    <title>
+      Gallery ABC Architecture agence d' architecture, architecte Strasbourg
+    </title>
+    <meta property="og:image" content="" />
+    <meta
+      name="description"
+      content="ABC Architecture agence d' architecture, architecte Strasbourg"
+    />
+    <link rel="canonical" href="" />
+    <meta property="og:locale" content="fr" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="ABC Architecture agence d' architecture, architecte Strasbourg"
+    />
+    <meta
+      property="og:description"
+      content="ABC Architecture agence d' architecture, architecte Strasbourg"
+    />
+    <meta property="og:url" content="" />
+    <meta
+      property="og:site_name"
+      content="ABC Architecture agence d' architecture, architecte Strasbourg"
+    />
+    <meta
+      property="article:modified_time"
+      content="2021-07-17T03:06:54+00:00"
+    />
+    <!-- add image -->
+    <!-- <meta
+      property="og:image"
+      content=""
+    /> -->
+    <meta property="og:image:width" content="1920" />
+    <meta property="og:image:height" content="990" />
+
+    <!-- / Yoast SEO plugin. -->
+
+    <link
+      rel="stylesheet"
+      id="abc-kitchens_style_libraries-css"
+      href="./styles/librairies.css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="abc-kitchens_style-css"
+      href="./styles/style.css"
+      media="all"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="styles/component.css" />
+    <link rel="stylesheet" type="text/css" href="styles/demo.css" />
+    <link rel="stylesheet" type="text/css" href="styles/normalize.css" />
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <link rel="stylesheet" type="text/css" href="./css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="./css/demo.css" />
+    <link rel="stylesheet" type="text/css" href="./css/component.css" />
+    <script src="js/modernizr.custom.js"></script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-5Y42XWN7V4"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+
+      gtag('config', 'G-5Y42XWN7V4');
+    </script>
+  </head>
+
+  <body id="body" class="demo-2" style="background-color: white">
+    <div class="page" data-scroll-container>
+      <div class="circle">
+        <span class="soul"></span>
+      </div>
+      <div
+        id="curtain"
+        class="d-flex align-items-center justify-content-center fixed-top"
+      >
+        <div class="curtain-logo text-center">
+          <span class="curtain-logo-d"><h1>A</h1></span>
+          <span class="curtain-logo-d"><h1>B</h1></span>
+          <span class="curtain-logo-d"><h1>C</h1></span>
+        </div>
+        <!-- <div class="loading-text">Loading...</div> -->
+        <span class="curtain-x curtain-left"></span>
+        <span class="curtain-y curtain-top"></span>
+        <span class="curtain-x curtain-right"></span>
+        <span class="curtain-y curtain-bottom"></span>
+        <!-- <span class="curtain-center"></span> -->
+      </div>
+     
+      <div id="menu_header" class="fixed-top secondaryMenu">
+        <div class="container">
+          <nav class="d-flex align-items-center justify-content-between">
+            <a href="https://abckitchens.com" rel="home" aria-label="Home">
+              <div class="main-logo">
+                <svg id="logo" x="0px" y="0px" viewBox="0 0 225.3 45">
+                  <style type="text/css">
+                    .abc-bar {
+                      fill: #ffffff;
+                    }
+                  </style>
+                </svg>
+                <img
+                  class="logo"
+                  src="./doc/images/LOGO-min.jpg"
+                  alt="logo ABC"
+                />
+              </div>
+            </a>
+            <button
+              type="button"
+              id="menu_button"
+              class="position-relative"
+              aria-label="Menu"
+            >
+              <div class="d-flex flex-column position-relative overflow-hidden">
+                <span class="menu_button-open">
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="feather feather-menu"
+                  >
+                    <line x1="3" y1="12" x2="21" y2="12"></line>
+                    <line x1="3" y1="6" x2="21" y2="6"></line>
+                    <line x1="3" y1="18" x2="21" y2="18"></line>
+                  </svg>
+                </span>
+                <span class="position-absolute left-0 menu_button-close">
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="feather feather-x"
+                  >
+                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                  </svg>
+                </span>
+              </div>
+            </button>
+            <div class="col-5 nav-items">
+              <div class="menu-main-menu-container">
+                <ul id="primary-menu" class="menu">
+                  <li
+                    id="menu-item-12"
+                    class="
+                      menu-item
+                      menu-item-type-post_type
+                      menu-item-object-page menu-item-home
+                      page_item page-item-6
+                      menu-item-12
+                    "
+                  >
+                    <a href="./index.html">Home</a>
+                  </li>
+                  <li
+                    id="menu-item-23"
+                    class="
+                      menu-item
+                      menu-item-type-post_type
+                      menu-item-object-page menu-item-23
+                    "
+                  >
+                    <a href="./projets.html" aria-current="page">Projects</a>
+                  </li>
+                  <li
+                    id="menu-item-22"
+                    class="
+                      current_page_item current-menu-item
+                      menu-item
+                      menu-item-type-post_type
+                      menu-item-object-page menu-item-22
+                    "
+                  >
+                    <a href="./gallery.html">Gallery</a>
+                  </li>
+                  <li
+                    id="menu-item-24"
+                    class="
+                      menu-item
+                      menu-item-type-post_type
+                      menu-item-object-page menu-item-24
+                    "
+                  >
+                    <a href="./contact.html">Contact</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="menu_credit d-block d-lg-none">
+                <a href="" rel="noopener" target="_blank">A website by Yayou</a>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+      <!-- <div id="quick_contact" class="fixed-bottom">
+        <div class="quick-icon">
+          <a href="" title="Contact">
+            <svg width="36px" height="36px">
+              <path
+                id="Icon_awesome-pen"
+                data-name="Icon awesome-pen"
+                d="M20.443,6.556l9,9L9.9,35.1l-8.025.886A1.688,1.688,0,0,1,.01,34.125L.9,26.094,20.443,6.556Zm14.569-1.34L30.785.989a3.377,3.377,0,0,0-4.775,0L22.034,4.965l9,9,3.976-3.976a3.377,3.377,0,0,0,0-4.775Z"
+                transform="translate(0.001 -0.001)"
+                fill="#36332e"
+              />
+            </svg>
+          </a>
+        </div>
+      </div> -->
+    
+      <svg class="hidden" style="z-index: 2000">
+        <defs>
+          <symbol id="icon-arrow" viewBox="0 0 24 24">
+            <title>arrow</title>
+            <polygon
+              points="6.3,12.8 20.9,12.8 20.9,11.2 6.3,11.2 10.2,7.2 9,6 3.1,12 9,18 10.2,16.8 "
+            />
+          </symbol>
+          <symbol id="icon-drop" viewBox="0 0 24 24">
+            <title>drop</title>
+            <path
+              d="M12,21c-3.6,0-6.6-3-6.6-6.6C5.4,11,10.8,4,11.4,3.2C11.6,3.1,11.8,3,12,3s0.4,0.1,0.6,0.3c0.6,0.8,6.1,7.8,6.1,11.2C18.6,18.1,15.6,21,12,21zM12,4.8c-1.8,2.4-5.2,7.4-5.2,9.6c0,2.9,2.3,5.2,5.2,5.2s5.2-2.3,5.2-5.2C17.2,12.2,13.8,7.3,12,4.8z"
+            />
+            <path
+              d="M12,18.2c-0.4,0-0.7-0.3-0.7-0.7s0.3-0.7,0.7-0.7c1.3,0,2.4-1.1,2.4-2.4c0-0.4,0.3-0.7,0.7-0.7c0.4,0,0.7,0.3,0.7,0.7C15.8,16.5,14.1,18.2,12,18.2z"
+            />
+          </symbol>
+        </defs>
+      </svg>
+      <main style="z-index: -1">
+        <div class="page-view">
+          <div class="project">
+            <div class="text">
+              <h1>Architecture</h1>
+              <p>Modelisation by Baris Aydin</B></p>
+            </div>
+          </div>
+          <div class="project">
+            <div class="text">
+              <h1>skyline</h1>
+              <p>Modelisation by Baris Aydin</p>
+            </div>
+          </div>
+          <div class="project">
+            <div class="text">
+              <h1>Shadows</h1>
+              <p>Modelisation by Baris Aydin</p>
+            </div>
+          </div>
+          <div class="project">
+            <div class="text">
+              <h1>Perspective</h1>
+              <p>Modelisation by Baris Aydin</p>
+            </div>
+          </div>
+          <div class="bullets">
+            <div class="arrow previous">
+              <svg
+                version="1.1"
+                id="Calque_1"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                x="0px"
+                y="0px"
+                viewBox="208.3 352 4.2 6.4"
+                style="enable-background: new 208.3 352 4.2 6.4"
+                xml:space="preserve"
+              >
+                <polygon
+                  class="st0"
+                  points="212.1,357.3 211.5,358 208.7,355.1 211.5,352.3 212.1,353 209.9,355.1"
+                />
+              </svg>
+            </div>
+            <div class="arrow next">
+              <svg
+                version="1.1"
+                id="Calque_1"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                x="0px"
+                y="0px"
+                viewBox="208.3 352 4.2 6.4"
+                style="enable-background: new 208.3 352 4.2 6.4"
+                xml:space="preserve"
+              >
+                <polygon
+                  class="st0"
+                  points="212.1,357.3 211.5,358 208.7,355.1 211.5,352.3 212.1,353 209.9,355.1"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+    <script src="./scripts/tetris.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.4.2/react-with-addons.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.4.2/react-dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/2.1.3/jquery.parallax.min.js"></script>
+    <!-- <script src="./script.js"></script> -->
+
+    <!-- <script src="./scripts/register.js" id="superpwa-register-sw-js"></script> -->
+    <script src="./scripts/librairies.js" id="libraries_script-js"></script>
+    <script src="./scripts/master.js" id="master_script-js"></script>
+    <script src="./scripts/modernizr.custom.js"></script>
+
+    <script src="./js/script.js"></script>
+    <script src="./scripts/zepto.min.js"></script>
+    <script src="./scripts/demo.js"></script>
+  </body>
+</html>
